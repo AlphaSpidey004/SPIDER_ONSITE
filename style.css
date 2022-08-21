@@ -1,0 +1,60 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  transition: all ease 0.3s;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#textbox {
+  width: 800px;
+  height: 200px;
+  position: relative;
+  left: 27%;
+}
+#btn,
+#btn1 {
+  left: 49%;
+  position: relative;
+  text-decoration: none;
+  padding: 10px;
+  background: darkgreen;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  top: 60px;
+}
+#btn,
+#btn1:hover {
+  cursor: pointer;
+}
+#title1,
+#title2 {
+  text-align: center;
+  color: white;
+}
+#left {
+  position: relative;
+  text-align: left;
+}
+#right {
+  text-align: right;
+}
+#textbox {
+  top: 40px;
+  position: relative;
+}
+.btns {
+  height: 40px;
+  width: fill;
+  background-color: darkgreen;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.textbox1,
+.textbox2,
+.textbox3 {
+  height: 20px;
+}
